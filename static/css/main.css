@@ -1,16 +1,18 @@
 body {
-    background-color: black;
+    background-color: rgba(25, 201, 224, 0.781);
     text-align: center;
     font-family: sans-serif;
-    color: white;
+    color: rgb(49, 2, 2);
 }
 
 #logo {
-    width: 250px;
+    /* width: 250px; */
+    width: 30%;
 }
 
 #prompt {
-    width: 750px;
+    /* width: 750px; */
+    width: 90%; 
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -19,7 +21,8 @@ body {
 }
 
 #generate_btn {
-    width: 775px; 
+    /* width: 775px; */
+    width: 50%;
     margin-bottom: 10px;
     padding: 8px;
     background-color: #76B704;
@@ -30,16 +33,20 @@ body {
 }
 
 .generated {
-    width: 250px;
-    margin: 2px;
+    /* width: 250px;
+    margin: 2px; */
+    width: 25%;
+    margin: 1%;
 }
 
 .save_btn {
-    width: 250px;
+    /* width: 250px; */
+    width: 25%;
     background-color: #3CA7F8;
     color: white;
     padding: 8px;
-    margin: auto 2px;
+    /* margin: auto 2px; */
+    margin: 1%;
     border-radius: 10px;
     border-style: None;
     font-weight: bold;

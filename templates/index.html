@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Stable diffusion App</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
 </head>
 <body>
     <img id="logo" src="/static/images/logo.png">
@@ -22,7 +22,7 @@
         <br>
         {% for i in btn_range %}
         <button class="save_btn" name="save_btn" type="submit" value="{{i}}" onclick="saving({{i}});">
-        SAVE HD IMAGE
+        Download Image
         </button>
         {% endfor %}
     </form>
